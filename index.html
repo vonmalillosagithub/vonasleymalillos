@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Signup Form</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h2>Signup Form</h2>
+            
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input placeholder="Name" type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input placeholder="Email" type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input placeholder="Password" type="password" id="password" name="password" minlength="8" required>
+            </div>
+            
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
